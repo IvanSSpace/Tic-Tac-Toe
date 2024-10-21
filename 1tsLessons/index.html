@@ -1,14 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Tic Tac Toe</h1>
-  <script type="module" src="lesson1.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div>
+          <div><input type="text" id="playerX" placeholder="Player X set name"></div>
+          <div><input type="text" id="playerO" placeholder="Player O set name"></div>
+        </div>
+        <table id="field">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <button id="reset">Reset</button>
+        <script type="module" src="lesson1.js"></script>
+    </body>
 </html>
